@@ -1,0 +1,72 @@
+create_git_history.sh
+# General
+.DS_Store
+.idea
+.vscode
+*.log
+dist/
+build/
+node_modules/
+coverage/
+
+# Go
+bin/
+vendor/
+
+# Rust
+target/
+Cargo.lock
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+apps/buyer-web/.next
+*.env
+.env.local
+.env.*.local
+
+# Development & Testing Scripts
+create_git_history.sh
+
+# Gemini/AI artifacts (should not be in repo)
+.gemini/
+
+# Environment files
+*.env
+.env.local
+.env.*.local
+
+# Build outputs
+.next/
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+create_git_history.sh
